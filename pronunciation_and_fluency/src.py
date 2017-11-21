@@ -348,7 +348,7 @@ sh = book.add_sheet("Sheet 1")
 sh.write(0, 0, "File Name")
 sh.write(0, 1, "Score")
 # srcpath contains the path to the folder where the audios are stored. All the files with .wav extension will be read
-srcpath = "C:/Users/shriya.magadal/Downloads/extempore/*"
+srcpath = #"ADD INPUT PATH HERE"
 for srcfile in glob.iglob(srcpath):
     if not os.path.isfile(srcfile):
         continue
